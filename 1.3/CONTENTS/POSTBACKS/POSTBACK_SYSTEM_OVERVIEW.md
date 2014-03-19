@@ -3,7 +3,7 @@
 
 <strong>What is a postback?</strong>
 <ul>
-<li>A postback is a notification sent via a single HTTP POST request in XML format from Skycore's servers to a user-specified URL containing information relative to the user's account regarding the following events:</li>
+<li>A postback is a notification sent via a single HTTP POST request in XML format from our servers to a user-specified URL containing information relative to the user's account regarding the following events:</li>
 <ul>
 <li>Subscribes/Unsubscribes</li>
 <li>SMS/MMS MO(Mobile Originated)</li>
