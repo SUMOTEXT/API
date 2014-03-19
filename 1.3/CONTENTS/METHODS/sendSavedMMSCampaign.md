@@ -27,7 +27,7 @@ XML:
     &lt;MMSID&gt;35674&lt;/MMSID&gt;
 &lt;/REQUEST&gt;</pre>
 GET:
-<pre>https://secure.skycore.com/API/wxml/1.3/index.php?action=sendsavedmmscampaign&api_key=qTFkykO9JTfahCOqJ0V2Wf5Cg1t8iWlZ
+<pre>https://secure.sumotext.com/API/wxml/1.3/index.php?action=sendsavedmmscampaign&api_key=qTFkykO9JTfahCOqJ0V2Wf5Cg1t8iWlZ
 &campaignid=332&mmsid=35674</pre>
 <div><strong>Response Example: Success</strong></div>
 <pre>&lt;RESPONSE&gt;
@@ -43,10 +43,10 @@ GET:
 &lt;/RESPONSE&gt;</pre>
 <div><strong>Postback Notifications For SendSavedMMS, SendSavedMMSCampaign</strong></div>
 <p>When the MMS delivery is processed successfully the system will generate a Postback notification.
-For more details please visit <a href="https://github.com/SkycoreMobile/API/blob/master/1.3/CONTENTS/POSTBACK_NOTIFICATION_SYSTEM.md">postback doc</a></p>
+</p>
 <pre>&lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
 &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
 &lt;CODE&gt;N101&lt;/CODE&gt;
 &lt;SENTAS&gt;MMS&lt;/SENTAS&gt;
@@ -60,7 +60,7 @@ xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
 <p>When an MMS delivery report is received the system will generate a Postback notification. Not all carriers provide MMS delivery receipts.</p>
 <pre>&lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
 &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
 &lt;CODE&gt;N102&lt;/CODE&gt;
 &lt;SENTAS&gt;MMS&lt;/SENTAS&gt;
