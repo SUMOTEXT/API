@@ -28,7 +28,7 @@ XML:
 	&lt;END_DATE&gt;2010-10-02 12:00:00&lt;/END_DATE&gt;
 &lt;/REQUEST&gt;</pre>
 GET:
-<pre>https://secure.skycore.com/API/wxml/1.3/index.php?action=getsendingstatus&api_key=qTFkykO9JTfahCOqJ0V2Wf5Cg1t8iWlZ
+<pre>https://secure.sumotext.com/API/wxml/1.3/index.php?action=getsendingstatus&api_key=qTFkykO9JTfahCOqJ0V2Wf5Cg1t8iWlZ
 &start_date=2010-10-01+12:00:00&end_date=2010-10-02+12:00:00</pre>
 <p><strong>Response Example:</strong><br />
 Responses will be a link to a XML file containing the report. All results are saved to file which must be downloaded by the requestor. Detailed Information about the report will be in <a href="/1.3/CONTENTS/APPENDICES/APPENDIX_C.md">Appendix C</a>.</p>
