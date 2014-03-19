@@ -90,7 +90,7 @@ AGGREGATORID &#8211; Only in N102 notification, contain Aggregator ID of the sen
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;N101&lt;/CODE&gt;
   &lt;SENTAS&gt;MMS&lt;/SENTAS&gt;
@@ -107,7 +107,7 @@ xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;N102&lt;/CODE&gt;
   &lt;SENTAS&gt;MMS&lt;/SENTAS&gt;
@@ -141,7 +141,7 @@ STATUSDETAILS &#8211; node with some additional information passed to us from th
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;N101&lt;/CODE&gt;
   &lt;SENTAS&gt;SMS&lt;/SENTAS&gt;
@@ -158,7 +158,7 @@ xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;N202&lt;/CODE&gt;
   &lt;SENTAS&gt;SMS&lt;/SENTAS&gt;
@@ -190,7 +190,7 @@ AGGREGATORID &#8211; Only in N202 notification, contain Aggregator ID of the sen
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;N101&lt;/CODE&gt;
   &lt;SENTAS&gt;SMS&lt;/SENTAS&gt;
@@ -208,7 +208,7 @@ xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;N202&lt;/CODE&gt;
   &lt;SENTAS&gt;SMS&lt;/SENTAS&gt;
@@ -238,7 +238,7 @@ STATUSDETAILS &#8211; For E101 notification when status is "Message Failed" post
 <pre>
 &lt;?xml version='1.0'?&gt;
 &lt;POSTBACK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation ="http://www.skycore.com/schema/postback.xsd"&gt;
+xsi:noNamespaceSchemaLocation ="http://www.sumotext.com/schema/postback.xsd"&gt;
   &lt;ORIGIN&gt;MMS_MT&lt;/ORIGIN&gt;
   &lt;CODE&gt;E101&lt;/CODE&gt;
   &lt;STATUS&gt;Message Failed&lt;/STATUS&gt;
